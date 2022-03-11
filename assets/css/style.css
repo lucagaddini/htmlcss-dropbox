@@ -163,7 +163,7 @@ main{
   padding-top: 40px;
 }
 
-.plans-col-top{
+.plans-col-top, .plans-row-top{
   border: 1px solid grey;
   padding: 10px 10px;
   text-align: center;
@@ -179,9 +179,13 @@ main{
   padding-left:20px;
 }
 
-.plans-col-content{
+.plans-col-content, .plans-row-content{
   padding: 30px 20px 0 20px;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-bottom:1px solid grey; ;
 }
+
 
 .plans-col-content a{
   display: inline-block;
@@ -190,13 +194,16 @@ main{
 }
 
 .plans-col-content ul li{
-  display: inline-block;
   list-style: none;
   padding: 5px 0;
 }
 
 .price{
   padding: 10px 0;
+}
+
+.fa-check{
+  color:#0161ff;
 }
 /* 
 /MAIN
