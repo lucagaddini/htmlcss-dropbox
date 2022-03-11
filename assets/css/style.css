@@ -10,6 +10,11 @@
   clear: both;
 }
 
+.col20{
+  float: left;
+  width: calc(100%/2 - 30%);
+}
+
 .col33{
   float: left;
   width: calc(100%/3);
@@ -30,6 +35,11 @@
   width: calc(100%/2 + 10%);
 }
 
+.col80{
+  float: left;
+  width: calc(100%/2 + 30%);
+}
+
 .col-full-width{
   float: left;
   width: 100%;
@@ -42,7 +52,6 @@
 .col-right{
   text-align: right;
 }
-
 
 .container{
   width: 70%;
