@@ -41,7 +41,7 @@ body{
   padding:10px
 }
 
-.button{
+.button-header{
   background-color: #0161ff;
   color: white;
   padding: 10px 20px;
@@ -49,9 +49,18 @@ body{
   display: inline;
 }
 
-.button:hover{
+.button{
+  background-color: #0161ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover, .button-header:hover{
   background-color: #3c85ff;
 }
+
 
 /* 
 HEADER
@@ -62,6 +71,7 @@ header{
   width: 100%;
   line-height: 100px;
   background-color: white;
+  z-index: 999;
 }
 
 header a{
@@ -90,9 +100,40 @@ JUMBOTRON
 
 .jumbotron{
   padding-top: 100px;
-  height: 500px;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-color: #b4d0e7;
+}
+
+.container-jumbotron{
+  padding-top: 90px;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.jumbotron h1{
+  font-size: 55px;
+  padding-bottom: 50px;
+}
+
+.jumbotron a{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.jumbotron .fa-arrow-down{
+  padding: 20px 0;
+  font-size: 50px;
+}
+
+.jumbotron img{
+  position: absolute;
+  bottom:-10%;
+  right:0%;
+  width:70%;
+  height:auto;
 }
 
 /* 
@@ -104,10 +145,59 @@ MAIN
  */
 
 main{
+  padding-top: 50px;
   height: auto;
   width: 100%;
+  background-color: white;
 }
 
+.plans-top{
+  padding-top: 50px;
+}
+
+.plans-top h2{
+  padding: 20px 0;
+}
+
+.plans-available{
+  padding-top: 40px;
+}
+
+.plans-col-top{
+  border: 1px solid grey;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.plans-available .col33:nth-child(1) {
+  padding-right:20px;
+}
+.plans-available .col33:nth-child(2) {
+  padding:0 20px;
+}
+.plans-available .col33:nth-child(3) {
+  padding-left:20px;
+}
+
+.plans-col-content{
+  padding: 30px 20px 0 20px;
+}
+
+.plans-col-content a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.plans-col-content ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px 0;
+}
+
+.price{
+  padding: 10px 0;
+}
 /* 
 /MAIN
  */

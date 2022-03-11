@@ -9,6 +9,11 @@
   width: calc(100%/4);
 }
 
+.col30{
+  float: left;
+  width: calc(100%/2 - 20%);
+}
+
 .col33{
   float: left;
   width: calc(100%/3);
@@ -27,6 +32,11 @@
 .col60{
   float: left;
   width: calc(100%/2 + 10%);
+}
+
+.col70{
+  float: left;
+  width: calc(100%/2 + 20%);
 }
 
 .col80{
