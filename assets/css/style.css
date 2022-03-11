@@ -3,3 +3,76 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col33{
+  float: left;
+  width: calc(100%/3);
+}
+
+.col40{
+  float: left;
+  width: calc(100%/2 - 10%);
+}
+
+.col50{
+  float: left;
+  width: calc(100%/2);
+}
+
+.col60{
+  float: left;
+  width: calc(100%/2 + 10%);
+}
+
+.col-full-width{
+  float: left;
+  width: 100%;
+}
+
+.col-left{
+  text-align: left;
+}
+
+.col-right{
+  text-align: right;
+}
+
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* 
+HEADER
+ */
+
+header{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+}
+
+/* 
+/HEADER
+ */
+
+
+
+/* 
+JUMBOTRON
+ */
+
+.jumbotron{
+  padding-top: 100px;
+}
+
+/* 
+/JUMBOTRON
+ */

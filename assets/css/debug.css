@@ -1,0 +1,33 @@
+.h50{
+  height: 50px;
+}
+
+.h100{
+  height: 100px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h500{
+  height: 500px;
+}
+
+.debug-red{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.debug-green{
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.debug-blue{
+  background-color: rgba(0, 0, 255, 0.5);
+}
+.debug-black{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.debug-lightblue{
+  background-color: rgba(59, 181, 218, 0.5);
+}
