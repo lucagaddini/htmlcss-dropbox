@@ -12,7 +12,12 @@
 
 .col20{
   float: left;
-  width: calc(100%/2 - 30%);
+  width: calc(100%/5);
+}
+
+.col25{
+  float: left;
+  width: calc(100%/4);
 }
 
 .col33{
@@ -53,15 +58,23 @@
   text-align: right;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .container{
   width: 70%;
+  margin: 0 auto;
+}
+
+.container-footer{
+  width: 90%;
   margin: 0 auto;
 }
 
 /* 
 HEADER
  */
-
 header{
   position: fixed;
   height: 100px;
@@ -72,16 +85,56 @@ header{
 /HEADER
  */
 
-
-
 /* 
 JUMBOTRON
  */
 
 .jumbotron{
   padding-top: 100px;
+  height: 500px;
+  width: 100%;
 }
 
 /* 
 /JUMBOTRON
+ */
+
+/* 
+MAIN
+ */
+
+main{
+  height: auto;
+  width: 100%;
+}
+
+/* 
+/MAIN
+ */
+
+
+/* 
+FAQ
+ */
+
+
+
+/* 
+/FAQ
+ */
+
+
+/* 
+FOOTER
+ */
+
+footer{
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+/* 
+FOOTER/
  */
