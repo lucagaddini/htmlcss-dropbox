@@ -41,27 +41,6 @@ body{
   padding:10px
 }
 
-.button-header{
-  background-color: #0161ff;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline;
-}
-
-.button{
-  background-color: #0161ff;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.button:hover, .button-header:hover{
-  background-color: #3c85ff;
-}
-
-
 /* 
 HEADER
  */
@@ -222,19 +201,6 @@ main{
   padding-bottom: 30px;
 }
 
-/* .plan-info-ul{
-padding-top: 20px;
-} */
-
-.button-trial{
-  background-color: #0161ff;
-  color: white;
-  padding: 10px 20px;
-  margin: 35px 0;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-}
 
 .buy-now{
   margin: 20px 0;
@@ -242,8 +208,11 @@ padding-top: 20px;
 }
 
 .col-full-width{
-  padding-top: 40px;
+  margin-top: 40px;
+  border: 1px solid grey;
 }
+
+
 
 /* 
 /MAIN

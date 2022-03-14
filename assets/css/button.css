@@ -1,0 +1,47 @@
+
+.button, .button-header, .button-trial, .button-sales-office{
+  background-color: #0161ff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.button{
+  display: inline-block;
+}
+
+.button:hover, .button-header:hover{
+  background-color: #3c85ff;
+}
+
+/* 
+HEADER
+*/
+
+.button-header{
+  display: inline;
+}
+
+/* 
+/HEADER
+*/
+
+/* 
+MAIN
+*/
+
+.button-trial{
+  margin: 35px 0;
+  text-align: center;
+  display: block;
+}
+
+
+.button-sales-office{
+  margin: 35px 0;
+  text-align: center;
+}
+
+/* 
+/MAIN
+ */
