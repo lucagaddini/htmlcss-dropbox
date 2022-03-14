@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-  max-width: 1920px;
+  max-width: 2500px;
 
 }
 
@@ -385,7 +384,33 @@ main{
 FAQ
  */
 
+.faq-box{
+  padding: 60px 0 60px 0;
+}
 
+.faq-box h3{
+  padding-bottom: 40px;
+}
+
+.faq-element{
+  border-top: 1px solid grey;
+  padding: 20px 0;
+}
+
+.container .faq-element:last-child{
+  border-bottom: 1px solid grey;
+}
+
+.faq-elements-title span .chevrno-list a:active {
+  display: block;
+}
+
+.faq-element span{
+  display: none;
+}
+.faq-element .text-right{
+  padding-right: 20px;
+}
 
 /* 
 /FAQ
