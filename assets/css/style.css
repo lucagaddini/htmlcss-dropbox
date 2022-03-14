@@ -237,8 +237,37 @@ FOOTER
 footer{
   height: auto;
   width: 100%;
+  padding-top: 90px;
   background-color: black;
   color: white;
+}
+
+footer h3{
+padding-bottom: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li{
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer hr{
+  color: white;
+  width: 120px;
+  margin: 70px 0 30px 0;
+}
+
+.footer-bottom {
+  padding-bottom: 40px;
+}
+
+.footer-bottom a{
+  color: grey;
 }
 
 /* 
