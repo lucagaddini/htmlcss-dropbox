@@ -109,8 +109,10 @@ JUMBOTRON
   padding-top: 90px;
   height: auto;
   width: 80%;
-  margin: 0 auto;
-  position: relative;
+  margin: 0 auto -70px auto;
+  /* position: relative; */
+  bottom:-10%;
+  max-width: 1500px;
 }
 
 .jumbotron h1{
@@ -129,9 +131,6 @@ JUMBOTRON
 }
 
 .jumbotron img{
-  position: absolute;
-  bottom:-10%;
-  right:0%;
   width:70%;
   height:auto;
 }
@@ -157,6 +156,7 @@ main{
 
 .plans-top h2{
   padding: 20px 0;
+  font-size: 35px;
 }
 
 .plans-available{

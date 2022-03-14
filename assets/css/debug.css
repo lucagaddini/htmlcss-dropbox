@@ -28,18 +28,23 @@
 
 .debug-red{
   background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid black;
 }
 .debug-green{
   background-color: rgba(0, 255, 0, 0.5);
+  border: 1px solid black;
 }
 
 .debug-blue{
   background-color: rgba(0, 0, 255, 0.5);
+  border: 1px solid black;
 }
 .debug-black{
   background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
 }
 
 .debug-lightblue{
   background-color: rgba(59, 181, 218, 0.5);
+  border: 1px solid black;
 }
