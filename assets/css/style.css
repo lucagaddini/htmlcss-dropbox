@@ -238,9 +238,31 @@ main{
   height: auto;
 }
 
-
-
 /* /PARTNER SECTION */
+
+/* FEATURES SECTION */
+
+.features .col33{
+  padding: 20px 30px;
+}
+
+.features img{
+  width: 100%;
+  height: auto;
+}
+.features h3{
+  padding: 20px 0;
+}
+
+.features-top{
+  padding: 20px 0;
+}
+
+
+
+
+/* /FEATURES SECTION */
+
 
 /* 
 /MAIN
