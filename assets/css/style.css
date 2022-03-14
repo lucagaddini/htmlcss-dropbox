@@ -150,6 +150,11 @@ main{
   background-color: white;
 }
 
+.plans-col{
+  height: 800px;
+  border:1px solid grey; ;
+}
+
 .plans-top{
   padding-top: 50px;
 }
@@ -164,38 +169,41 @@ main{
 }
 
 .plans-col-top, .plans-row-top{
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
   padding: 10px 10px;
   text-align: center;
 }
 
-.plans-available .col33:nth-child(1) {
-  padding-right:20px;
+.plans-available .col33-plans:nth-child(1) {
+  margin-right:25px;
 }
-.plans-available .col33:nth-child(2) {
-  padding:0 20px;
+.plans-available .col33-plans:nth-child(2) {
+  margin:0 5px;
 }
-.plans-available .col33:nth-child(3) {
-  padding-left:20px;
+.plans-available .col33-plans:nth-child(3) {
+  margin-left:25px;
 }
 
 .plans-col-content, .plans-row-content{
   padding: 30px 20px 0 20px;
-  border-left:1px solid grey;
+  /* border-left:1px solid grey;
   border-right:1px solid grey;
-  border-bottom:1px solid grey; ;
+  border-bottom:1px solid grey; ; */
 }
 
-
-.plans-col-content a{
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-}
+/* .plans-col-content{
+  height: 100%;
+} */
 
 .plans-col-content ul li{
   list-style: none;
-  padding: 5px 0;
+  padding: 10px 0;
+}
+
+.plans-col-content hr{
+  color: grey;
+  width: 60px;
+  margin: 30px 0;
 }
 
 .price{
@@ -205,6 +213,38 @@ main{
 .fa-check{
   color:#0161ff;
 }
+
+.color-grey{
+  color: grey;
+}
+
+.plan-name{
+  padding-bottom: 30px;
+}
+
+/* .plan-info-ul{
+padding-top: 20px;
+} */
+
+.button-trial{
+  background-color: #0161ff;
+  color: white;
+  padding: 10px 20px;
+  margin: 35px 0;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.buy-now{
+  margin: 20px 0;
+  display: block;
+}
+
+.col-full-width{
+  padding-top: 40px;
+}
+
 /* 
 /MAIN
  */

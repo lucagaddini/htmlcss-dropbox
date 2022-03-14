@@ -18,8 +18,16 @@
   height: 500px;
 }
 
+.h600{
+  height: 600px;
+}
+
 .h700{
   height: 700px;
+}
+
+.h800{
+  height: 800px;
 }
 
 .h900{

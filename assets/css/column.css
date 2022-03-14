@@ -19,6 +19,11 @@
   width: calc(100%/3);
 }
 
+.col33-plans{
+  float: left;
+  width: calc(100%/3 - 20px);
+}
+
 .col40{
   float: left;
   width: calc(100%/2 - 10%);
