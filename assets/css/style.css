@@ -88,7 +88,7 @@ JUMBOTRON
   padding-top: 90px;
   height: auto;
   width: 80%;
-  margin: 0 auto -70px auto;
+  margin: 0 auto -65px auto;
   /* position: relative; */
   bottom:-10%;
   max-width: 1500px;
@@ -110,7 +110,7 @@ JUMBOTRON
 }
 
 .jumbotron img{
-  width:70%;
+  width:80%;
   height:auto;
 }
 
@@ -129,8 +129,10 @@ main{
   background-color: white;
 }
 
+/* PLANS SECTION */
+
 .plans-col{
-  height: 800px;
+  height: 950px;
   border:1px solid grey; ;
 }
 
@@ -165,14 +167,7 @@ main{
 
 .plans-col-content, .plans-row-content{
   padding: 30px 20px 0 20px;
-  /* border-left:1px solid grey;
-  border-right:1px solid grey;
-  border-bottom:1px solid grey; ; */
 }
-
-/* .plans-col-content{
-  height: 100%;
-} */
 
 .plans-col-content ul li{
   list-style: none;
@@ -201,7 +196,6 @@ main{
   padding-bottom: 30px;
 }
 
-
 .buy-now{
   margin: 20px 0;
   display: block;
@@ -212,7 +206,41 @@ main{
   border: 1px solid grey;
 }
 
+.plans-row-content h3{
+  padding-bottom: 15px;
+}
+.plans-row-content h4{
+  padding-bottom: 40px;
+}
 
+.plans-row-content{
+  padding-bottom: 20px;
+}
+
+/* /PLANS SECTION */
+
+/* PARTNER SECTION */
+
+.find-dropbox-partner {
+  margin: 60px auto;
+}
+.find-dropbox-partner .col40{
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.find-dropbox-partner .col40 h3,p{
+  padding-bottom: 25px;
+}
+
+.find-dropbox-partner img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* /PARTNER SECTION */
 
 /* 
 /MAIN
