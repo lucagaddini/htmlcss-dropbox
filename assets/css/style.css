@@ -89,8 +89,6 @@ JUMBOTRON
   height: auto;
   width: 80%;
   margin: 0 auto -65px auto;
-  /* position: relative; */
-  bottom:-10%;
   max-width: 1500px;
 }
 
@@ -172,6 +170,11 @@ main{
 .plans-col-content ul li{
   list-style: none;
   padding: 10px 0;
+}
+
+.plans-col-content span{
+  color: grey;
+  font-size: 0.9rem;
 }
 
 .plans-col-content hr{
@@ -258,10 +261,92 @@ main{
   padding: 20px 0;
 }
 
-
-
-
 /* /FEATURES SECTION */
+
+/* CLIENTS SECTION */
+
+.clients-top{
+  padding: 70px 0 30px 0 ;
+}
+
+.clients-top h2 {
+  padding: 20px 0;
+}
+
+.clients-list .col50{
+  padding: 20px 30px 50px 30px;
+  background-color: #f5f5f5;
+  overflow: auto;
+}
+.clients-list .col50 img{
+  width: 20%;
+  height: auto;
+  padding: 20px 0;
+}
+
+.clients-list .col50 hr {
+  color: grey;
+  width: 60px;
+  margin: 10px 0 30px 0;
+}
+
+.clients-list .square{
+  float: left;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.clients-list .square.active{
+  border: 8px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.clients-list .square svg{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  fill: white;
+  width: 60%;
+  height: auto;
+}
+
+#designit{
+  background-color: #a0d39b;
+  color: white;
+}
+
+#arizona{
+  background-color: #62092b;
+}
+
+#florida{
+  background-color: #0093ce;
+}
+
+#topps{
+  background-color: #ff1d1c;
+}
+
+#lonely-planet{
+  background-color: #0d2481;
+}
+
+#clear-channel{
+  background-color: #ffd830;
+}
+
+#hearst{
+  background-color: #b4d0e7;
+}
+
+#world-bicycle{
+  background-color: #d40120;
+}
+
+/* /CLIENTS SECTION */
 
 
 /* 
