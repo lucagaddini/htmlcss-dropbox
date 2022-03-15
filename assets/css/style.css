@@ -43,9 +43,14 @@ body{
   padding:10px
 }
 
+hr{
+  border: 1px solid lightgrey;
+}
+
 /* 
 HEADER
- */
+*/
+
 header{
   position: fixed;
   height: 100px;
@@ -53,6 +58,7 @@ header{
   line-height: 100px;
   background-color: white;
   z-index: 999;
+  border-bottom: 1px solid lightgray;
 }
 
 header a{
@@ -73,7 +79,6 @@ header ul li{
 
 header ul li:hover .nav-option{
   box-shadow: inset 0 -2px 0 black;
-
 }
 
 /* 
@@ -94,7 +99,7 @@ JUMBOTRON
 .container-jumbotron{
   padding-top: 90px;
   height: auto;
-  width: 80%;
+  width: 90%;
   margin: 0 auto -65px auto;
   max-width: 1500px;
 }
@@ -280,10 +285,6 @@ main{
 
 /* FEATURES SECTION */
 
-/* .features .col33{
-  padding: 20px 30px;
-} */
-
 .features .col33-features:nth-child(1) {
   margin-right:25px;
 }
@@ -444,6 +445,11 @@ FAQ
   padding: 20px 0;
 }
 
+.faq-element-title p{
+  color: grey;
+  padding-top: 20px;
+}
+
 .faq-element a{
   text-decoration: none;
 }
@@ -455,22 +461,6 @@ FAQ
 .faq-element .text-right{
   padding-right: 20px;
 }
-
-/* FAQ BONUS (Hover with text and Chevron) */
-
-.faq-element-title p, .chevrno-list-up{
-  display: none;
-}
-
-.faq-element:hover .faq-element-title p, .faq-element:hover .chevrno-list-up {
-  display: block;
-}
-
-.faq-element:hover .chevrno-list-down {
-  display: none;
-}
-/* /FAQ BONUS (Hover with text and Chevron) */
-
 
 /* 
 /FAQ

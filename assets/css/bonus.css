@@ -1,0 +1,49 @@
+/* BONUS 1: Navbar with sub-menu */
+.submenu-box{
+  z-index: 999;
+  position: absolute;
+  display: none;
+  text-align: left;
+  line-height: 35px;
+  background-color: white;
+  padding: 15px 0;
+}
+
+.submenu-box ul li{
+  display:list-item;
+  list-style: none;
+  padding: 5px 30px;
+}
+
+.submenu-element a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.submenu-element li:hover{
+  background-color: lightgray;
+}
+
+.submenu-available:hover .submenu-box{
+  display: block;
+}
+/* /BONUS 1: Navbar with sub-menu */
+
+
+/* BONUS 2: FAQ Elements (Hover with text and Chevron) */
+
+.faq-element-title p, .chevrno-list-up{
+  display: none;
+}
+
+.faq-element:hover .faq-element-title p, .faq-element:hover .chevrno-list-up {
+  display: block;
+}
+
+.faq-element:hover .chevrno-list-down {
+  display: none;
+}
+
+/* /BONUS 2: FAQ Elements (Hover with text and Chevron) */
+
