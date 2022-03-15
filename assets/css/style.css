@@ -171,7 +171,11 @@ main{
 
 .plans-col-content ul li{
   list-style: none;
-  padding: 10px 0;
+  padding: 10px 0 10px 20px;
+}
+
+.plan-info i, .plan-info-ul i{
+  margin-left: -20px;
 }
 
 .plans-col-content span{
@@ -397,17 +401,26 @@ FAQ
   padding: 20px 0;
 }
 
+.faq-element a{
+  text-decoration: none;
+}
+
 .container .faq-element:last-child{
   border-bottom: 1px solid grey;
 }
 
-.faq-elements-title span .chevrno-list a:active {
+.faq-element-title span, .chevrno-list-up{
+  display: none;
+}
+
+.faq-element:hover .faq-element-title span, .faq-element:hover .chevrno-list-up {
   display: block;
 }
 
-.faq-element span{
+.faq-element:hover .chevrno-list-down {
   display: none;
 }
+
 .faq-element .text-right{
   padding-right: 20px;
 }
