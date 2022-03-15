@@ -183,6 +183,30 @@ main{
   margin-left: -20px;
 }
 
+.plans-radio{
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border:  1px solid grey;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.plans-radio.active{
+  border:  5px solid #0161ff;
+}
+
+.select-billing{
+  padding-top:40px;
+}
+
+.select-billing .option{
+  display: inline;
+  padding-right: 20px;
+}
+
+
 .plans-col-content span{
   color: grey;
   font-size: 0.9rem;
@@ -420,11 +444,11 @@ FAQ
 
 /* FAQ BONUS (Hover with text and Chevron) */
 
-.faq-element-title span, .chevrno-list-up{
+.faq-element-title p, .chevrno-list-up{
   display: none;
 }
 
-.faq-element:hover .faq-element-title span, .faq-element:hover .chevrno-list-up {
+.faq-element:hover .faq-element-title p, .faq-element:hover .chevrno-list-up {
   display: block;
 }
 
