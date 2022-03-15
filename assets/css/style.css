@@ -71,6 +71,11 @@ header ul li{
   padding: 0 15px;
 }
 
+header ul li:hover .nav-option{
+  box-shadow: inset 0 -2px 0 black;
+
+}
+
 /* 
 /HEADER
  */
@@ -409,6 +414,12 @@ FAQ
   border-bottom: 1px solid grey;
 }
 
+.faq-element .text-right{
+  padding-right: 20px;
+}
+
+/* FAQ BONUS (Hover with text and Chevron) */
+
 .faq-element-title span, .chevrno-list-up{
   display: none;
 }
@@ -420,10 +431,8 @@ FAQ
 .faq-element:hover .chevrno-list-down {
   display: none;
 }
+/* /FAQ BONUS (Hover with text and Chevron) */
 
-.faq-element .text-right{
-  padding-right: 20px;
-}
 
 /* 
 /FAQ
