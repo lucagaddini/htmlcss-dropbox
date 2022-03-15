@@ -7,41 +7,55 @@
 .col25{
   float: left;
   width: calc(100%/4);
+  height: 100%;
 }
 
 .col30{
   float: left;
   width: calc(100%/2 - 20%);
+  height: 100%;
 }
 
 .col33{
   float: left;
   width: calc(100%/3);
+  height: 100%;
 }
 
 .col33-plans{
   float: left;
   width: calc(100%/3 - 20px);
+  height: 100%;
+}
+
+.col33-features{
+  float: left;
+  width: calc(100%/3 - 20px);  
+  height: 100%;
 }
 
 .col40{
   float: left;
   width: calc(100%/2 - 10%);
+  height: 100%;
 }
 
 .col50{
   float: left;
   width: calc(100%/2);
+  height: 100%;
 }
 
 .col60{
   float: left;
   width: calc(100%/2 + 10%);
+  height: 100%;
 }
 
 .col70{
   float: left;
   width: calc(100%/2 + 20%);
+  height: 100%;
 }
 
 .col80{
